@@ -63,7 +63,7 @@
           />
         </v-col>
         <v-radio-group v-model="row" class="s" row>
-          <h2>ระดับการศึกษา</h2>
+          <h2>--ระดับการศึกษา--</h2>
           <hr />
           <hr />
           <v-radio
@@ -86,7 +86,7 @@
       </v-row>
     </v-container>
 
-    <v-btn color="#BA68C8" class="mr-4" @click="addData"> submit </v-btn>
+    <v-btn color="green" class="mr-4" @click="addData"> submit </v-btn>
   </v-form>
 </template>
 
